@@ -1,0 +1,60 @@
+
+
+@import "~styleguide/global-main";
+
+@import "~styleguide/vendor/normalize";
+
+
+@import "~styleguide/lib/modern/stylesheets/colors";
+@import "~styleguide/lib/modern/stylesheets/color-aliases";
+@import "~styleguide/lib/modern/stylesheets/spacing";
+@import "~styleguide/lib/modern/stylesheets/z-index";
+@import "~styleguide/lib/modern/stylesheets/responsive";
+@import "~styleguide/lib/modern/stylesheets/helpers";
+@import "~styleguide/lib/modern/stylesheets/helper-mixins";
+@import "~styleguide/lib/modern/stylesheets/typography";
+
+$font-path: '../../node_modules/styleguide/lib/modern/assets/fonts/';
+$clear-icon-path: '../../node_modules/styleguide/lib/modern/assets/images/clear_x.svg';
+$inline-error-icon-path: '../../node_modules/styleguide/lib/modern/assets/images/error-inline-16x16.svg';
+$loading-icon-path: '../../node_modules/styleguide/lib/modern/assets/images/loading-icon.svg';
+$kp-logo-path: "../../node_modules/styleguide/lib/modern/assets/images/logo.svg";
+
+@import "~styleguide/lib/modern/stylesheets/fonts";
+@import "~styleguide/lib/modern/stylesheets/kp-icons";
+@import "~styleguide/lib/modern/stylesheets/icons";
+@import "~styleguide/lib/modern/stylesheets/icon";
+@import "~styleguide/lib/modern/stylesheets/grid";
+@import "~styleguide/lib/modern/stylesheets/document";
+@import "~styleguide/lib/modern/stylesheets/accessibility";
+@import "~styleguide/lib/modern/stylesheets/action-area";
+@import "~styleguide/lib/modern/stylesheets/action-box";
+@import "~styleguide/lib/modern/stylesheets/dividers";
+@import "~styleguide/lib/modern/stylesheets/links";
+@import "~styleguide/lib/modern/stylesheets/lists";
+@import "~styleguide/lib/modern/stylesheets/link-lists";
+@import "~styleguide/lib/modern/stylesheets/buttons";
+@import "~styleguide/lib/modern/stylesheets/search-button";
+@import "~styleguide/lib/modern/stylesheets/checkboxes";
+@import "~styleguide/lib/modern/stylesheets/dropdowns";
+@import "~styleguide/lib/modern/stylesheets/dropdown-overlay";
+@import "~styleguide/lib/modern/stylesheets/radio-buttons";
+@import "~styleguide/lib/modern/stylesheets/forms";
+@import "~styleguide/lib/modern/stylesheets/features";
+@import "~styleguide/lib/modern/stylesheets/modal";
+@import "~styleguide/lib/modern/stylesheets/notifications";
+@import "~styleguide/lib/modern/stylesheets/loader";
+@import "~styleguide/lib/modern/stylesheets/table";
+@import "~styleguide/lib/modern/stylesheets/breadcrumb";
+@import "~styleguide/lib/modern/stylesheets/pagination";
+@import "~styleguide/lib/modern/stylesheets/icon-links";
+@import "~styleguide/lib/modern/stylesheets/ratings";
+
+@import "~styleguide/lib/modern/stylesheets/tile";
+@import "~styleguide/lib/modern/stylesheets/step-indicator";
+@import "~styleguide/lib/modern/stylesheets/image";
+@import "~styleguide/lib/modern/stylesheets/scrollbox";
+@import "~styleguide/lib/modern/stylesheets/webview";
+
+// @import '~styleguide/lib/modern/stylesheets/main';
+// @import "~styleguide/modern-lib";
