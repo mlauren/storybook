@@ -25,6 +25,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "sass-loader": "^7.1.0",
-    "styleguide": "git+ssh://git@bitbucket-fof.appl.kp.org:7999/kprwd/styleguide.git#storybook-fixes"
+    "styleguide": "git+ssh://git@bitbucket-fof.appl.kp.org:7999/kprwd/styleguide.git#storybook-fixes",
+    "view-more-less-text-pattern": "^1.0.21"
   }
 }

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import BaseButton from "./BaseButton";
 
-import { modalInit, openModal } from 'modal-pattern/src/modal';
+import { modalInit } from 'modal-pattern/src/modal';
 
 class Modal extends React.Component {
   constructor() {
@@ -11,7 +10,6 @@ class Modal extends React.Component {
   }
 
   componentDidMount() {
-    console.log("hello");
     this._handleLoad();
   }
 
