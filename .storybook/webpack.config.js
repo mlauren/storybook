@@ -7,7 +7,7 @@ module.exports = {
     rules: [
       {
         // look for .scss files
-        test: /\.scss$/,
+        test: /\.(css|sass|scss)$/,
         // in the `src` directory
         include: path.resolve(__dirname, '../'),
         loaders: ['style-loader', 'css-loader', 'sass-loader']

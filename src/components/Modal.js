@@ -52,10 +52,6 @@ class Modal extends React.Component {
       </div>
     );
   }
-  
-
-  
-
 }
 
 // Modal.displayName = 'Modal';
