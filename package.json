@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "build-storybook": "build-storybook -c .storybook"
+    "build-storybook": "build-storybook -c .storybook",
+    "eyes-storybook": "eyes-storybook"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@applitools/eyes-storybook": "^2.7.19",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
     "@packtracker/webpack-plugin": "^2.0.1",
