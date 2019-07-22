@@ -1,8 +1,26 @@
-import { configure, addDecorator } from '@storybook/react';
-import { withInfo } from '@storybook/addon-info';
+import { configure, addDecorator, addParameters, getStorybook } from '@storybook/react';
+import { withA11y } from '@storybook/addon-a11y';
+
 import '../src/styles/main.scss';
 
-addDecorator(withInfo); 
+addDecorator(withA11y); 
+addParameters({
+  showPanel: false,
+  sidebarAnimations: true,
+  a11y: {
+    config: {},
+    options: {
+      // checks: { 'color-contrast': { options: { noScroll: true } } },
+      // restoreScroll: true,
+      // hierarchySeparator: /\/|\./,
+      // hierarchyRootSeparator: /\|/,
+    },
+  },
+  options: {
+    hierarchySeparator: /\/|\./,
+    hierarchyRootSeparator: /\|/,
+  },
+});
 
 const req = require.context('../stories', true, /\.js$/);
 // TODO move stories into components folder

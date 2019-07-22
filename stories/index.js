@@ -17,4 +17,8 @@ storiesOf('Button', module)
     { info: { inline: true, header: false } }
     )
   .add('inverted button', () => <BaseButton button={{ ...button, customClass: "-inverted", children: "Secondary Button"}}/>)
-  .add('disabled', () => <BaseButton button={{ ...button, disabled:true, customClass: "-inverted", children: "Disabled button"}}/>);
+  .add('disabled', () => <BaseButton button={{ ...button, disabled:true, customClass: "-inverted", children: "Disabled button"}}/>)
+  .add(
+    'Inaccessible', 
+    () => <button style={{ backgroundColor: 'red', color: 'darkRed', }}>Hello</button>,
+    );
